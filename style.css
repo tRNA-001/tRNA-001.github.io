@@ -10,24 +10,16 @@ body {
     padding-bottom: 125px;
 }
 
-#footer {
-    background-color: #1d2546;
-}
-
 .section.two, 
 .section.four {
-    /*background-color: white;*/
-    /*background-color: #fbf7eb;*/
     background-color: #f9f6ee;
 }
-
 
 .container button, .container {
     background-color: #d19f41;
 }
 
-
-p, li {
+p {
     font-size: 18px;
     color: #E5E7EB;
     filter: contrast(65%);
@@ -56,15 +48,12 @@ button {
     display: flex;
     flex-direction: column;
     padding: 0;
-    /*gap: 60px;*/
-
-    /*background-image: url(./stars-bg.png);*/
     background-image: url(./the_little_prince.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-blend-mode: hard-light;*/
 }
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -85,9 +74,6 @@ button {
     font-size: 24px;
     font-weight: 400;
     color: #F9FAF8;
-    
-
-   
 }
 
 ul {
@@ -103,6 +89,8 @@ ul {
 li {
     filter: contrast(95%);
     color: #F9FAF8;
+    font-size: 18px;
+    margin: 0;
 }
 .section.one .below {
     display: flex;
@@ -162,8 +150,7 @@ h2 {
 .icon {
     width: 170px;
     height: 170px;
-    /*border: 3px solid #3882F6;*/
-    /*border: 3px solid #D4DCAE;*/
+
     border: 3px solid #CADBB0;
     border-radius: 8px;
 }
@@ -175,11 +162,7 @@ h2 {
 
 }
 .section.three {
-    /*background-color: #E5E7EB;*/
     background-color: #CADBB0;
-    
-    /*background-blend-mode: hard-light;*/
-    /*background-color: #c2d2ab;*/
 
     display: flex;
     flex-direction: column;
@@ -240,6 +223,7 @@ h3 {
 #footer {
     text-align: center;
     color: #E5E7EB;
+    background-color: #1d2546;
 
     display: flex;
     justify-content: center;
