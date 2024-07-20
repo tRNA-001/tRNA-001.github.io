@@ -1,15 +1,13 @@
 body {
   height: 100vh;
   margin: 0;
-  /*overflow: hidden;*/
   font-family: Roboto, sans-serif;
 
 }
 
-.section, .header {
+.section, #header {
     padding: 100px 210px;
     padding-bottom: 125px;
-    /*border: 1px solid red;*/
 }
 
 p, li {
@@ -32,16 +30,15 @@ button {
     margin-top: 16px;
 }
 
-.header {
+#header {
     background-color: #1F2937;
-
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.logo {
+#logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -98,12 +95,10 @@ h1 {
 
 .section.two {
     background-color: white;
-    
 
     display: flex;
     flex-direction: column;
     padding-top: 0px;
-    
 }
 
 h2 {
@@ -162,7 +157,6 @@ h2 {
     color: #1F2937;
 
     padding-left: 80px;
-    /*padding-right: 50px;*/
 
 }
 
@@ -171,7 +165,6 @@ h2 {
     font-weight: bold;
     color: #1F2937;
     text-align: right;
-    /*padding-right: 45px;*/
 
     margin-top: 16px;
 }
@@ -192,7 +185,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*height: 100px;*/
     border-radius: 8px;
     padding: 50px;
 }
@@ -212,10 +204,9 @@ h3 {
 
 .call-subtext {
     color: #F9FAF8;
-    /*filter: contrast (80%);*/
 }
 
-.footer {
+#footer {
     background-color: #1F2937;
     text-align: center;
     color: #E5E7EB;
